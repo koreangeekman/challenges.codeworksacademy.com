@@ -1,0 +1,227 @@
+{
+  "SUBMISSION_TYPES": {
+    "INCOMPLETE": "incomplete",
+    "STARTED": "started",
+    "SUBMITTED": "submitted",
+    "RETURNED_FOR_REVIEW": "returned for review",
+    "COMPLETED": "completed",
+    "REMOVED": "removed",
+    "LEFT": "left"
+  },
+  "CATEGORY_TYPES": {
+    "FULL_STACK": "full stack",
+    "FRONT_END": "front end",
+    "BACK_END": "back end",
+    "PUZZLES": "puzzles",
+    "DATA_STRUCTURES": "data structures",
+    "STYLE_AND_DESIGN": "style and design",
+    "OTHER": "other"
+  },
+  "STATUS_TYPES": {
+    "DRAFT": "draft",
+    "UNDER_REVIEW": "under review",
+    "PUBLISHED": "published",
+    "DEPRECATED": "deprecated"
+  },
+  "MILESTONE_BADGE": [
+    {
+      "ADJECTIVE": "Novice",
+      "DESCRIPTION": "Level 1 of 12",
+      "TIER_CURRENT": "mdi-circle-small",
+      "TIER_NEXT": "mdi-flare",
+      "ICON": "mdi-account-star-variant",
+      "COLOR_1": ["#9a9a9a", "#70369d", "#4b369d", "#487de7", "#79c314", "#faeb36", "#ffa500", "#e81416", "#CD7F32", "#B4B4B4", "#C9B037"],
+      "COLOR_2": ["#69747d", "#44375d", "#3a375d", "#3e527e", "#476333", "#757548", "#7a5e2a", "#6f2631", "#615044", "#6d6c6c", "#5e5c46"]
+    },
+    {
+      "ADJECTIVE": "Developing",
+      "DESCRIPTION": "Level 2 of 12",
+      "TIER_CURRENT": "mdi-flare",
+      "TIER_NEXT": "mdi-triangle",
+      "ICON": "mdi-account-star-variant",
+      "COLOR_1": ["#9a9a9a", "#70369d", "#4b369d", "#487de7", "#79c314", "#faeb36", "#ffa500", "#e81416", "#CD7F32", "#B4B4B4", "#C9B037"],
+      "COLOR_2": ["#69747d", "#44375d", "#3a375d", "#3e527e", "#476333", "#757548", "#7a5e2a", "#6f2631", "#615044", "#6d6c6c", "#5e5c46"]
+    },
+    {
+      "ADJECTIVE": "Improving",
+      "DESCRIPTION": "Level 3 of 12",
+      "TIER_CURRENT": "mdi-triangle",
+      "TIER_NEXT": "mdi-star-three-points",
+      "COLOR_1": ["#9a9a9a", "#70369d", "#4b369d", "#487de7", "#79c314", "#faeb36", "#ffa500", "#e81416", "#CD7F32", "#B4B4B4", "#C9B037"],
+      "COLOR_2": ["#69747d", "#44375d", "#3a375d", "#3e527e", "#476333", "#757548", "#7a5e2a", "#6f2631", "#615044", "#6d6c6c", "#5e5c46"]
+    },
+    {
+      "ADJECTIVE": "Proficient",
+      "DESCRIPTION": "Level 4 of 12",
+      "TIER_CURRENT": "mdi-star-three-points",
+      "TIER_NEXT": "mdi-star-four-points",
+      "COLOR_1": ["#9a9a9a", "#70369d", "#4b369d", "#487de7", "#79c314", "#faeb36", "#ffa500", "#e81416", "#CD7F32", "#B4B4B4", "#C9B037"],
+      "COLOR_2": ["#69747d", "#44375d", "#3a375d", "#3e527e", "#476333", "#757548", "#7a5e2a", "#6f2631", "#615044", "#6d6c6c", "#5e5c46"]
+    },
+    {
+      "ADJECTIVE": "Skilled",
+      "DESCRIPTION": "Level 5 of 12",
+      "TIER_CURRENT": "mdi-star-four-points",
+      "TIER_NEXT": "mdi-star",
+      "COLOR_1": ["#9a9a9a", "#70369d", "#4b369d", "#487de7", "#79c314", "#faeb36", "#ffa500", "#e81416", "#CD7F32", "#B4B4B4", "#C9B037"],
+      "COLOR_2": ["#69747d", "#44375d", "#3a375d", "#3e527e", "#476333", "#757548", "#7a5e2a", "#6f2631", "#615044", "#6d6c6c", "#5e5c46"]
+    },
+    {
+      "ADJECTIVE": "Competent",
+      "DESCRIPTION": "Level 6 of 12",
+      "TIER_CURRENT": "mdi-star",
+      "TIER_NEXT": "mdi-hexagram",
+      "COLOR_1": ["#9a9a9a", "#70369d", "#4b369d", "#487de7", "#79c314", "#faeb36", "#ffa500", "#e81416", "#CD7F32", "#B4B4B4", "#C9B037"],
+      "COLOR_2": ["#69747d", "#44375d", "#3a375d", "#3e527e", "#476333", "#757548", "#7a5e2a", "#6f2631", "#615044", "#6d6c6c", "#5e5c46"]
+    },
+    {
+      "ADJECTIVE": "Accomplished",
+      "DESCRIPTION": "Level 7 of 12",
+      "TIER_CURRENT": "mdi-hexagram",
+      "TIER_NEXT": "mdi-hexagon-outline",
+      "COLOR_1": ["#9a9a9a", "#70369d", "#4b369d", "#487de7", "#79c314", "#faeb36", "#ffa500", "#e81416", "#CD7F32", "#B4B4B4", "#C9B037"],
+      "COLOR_2": ["#69747d", "#44375d", "#3a375d", "#3e527e", "#476333", "#757548", "#7a5e2a", "#6f2631", "#615044", "#6d6c6c", "#5e5c46"]
+    },
+    {
+      "ADJECTIVE": "Expert",
+      "DESCRIPTION": "Level 8 of 12",
+      "TIER_CURRENT": "mdi-hexagon-outline",
+      "TIER_NEXT": "mdi-octagram",
+      "COLOR_1": ["#9a9a9a", "#70369d", "#4b369d", "#487de7", "#79c314", "#faeb36", "#ffa500", "#e81416", "#CD7F32", "#B4B4B4", "#C9B037"],
+      "COLOR_2": ["#69747d", "#44375d", "#3a375d", "#3e527e", "#476333", "#757548", "#7a5e2a", "#6f2631", "#615044", "#6d6c6c", "#5e5c46"]
+    },
+    {
+      "ADJECTIVE": "Masterful",
+      "DESCRIPTION": "Level 9 of 12",
+      "TIER_CURRENT": "mdi-octagram",
+      "TIER_NEXT": "mdi-octagram-outline",
+      "COLOR_1": ["#9a9a9a", "#70369d", "#4b369d", "#487de7", "#79c314", "#faeb36", "#ffa500", "#e81416", "#CD7F32", "#B4B4B4", "#C9B037"],
+      "COLOR_2": ["#69747d", "#44375d", "#3a375d", "#3e527e", "#476333", "#757548", "#7a5e2a", "#6f2631", "#615044", "#6d6c6c", "#5e5c46"]
+    },
+    {
+      "ADJECTIVE": "Pinnacle",
+      "DESCRIPTION": "Level 10 of 12",
+      "TIER_CURRENT": "mdi-octagram-outline",
+      "TIER_NEXT": "mdi-decagram",
+      "COLOR_1": ["#9a9a9a", "#70369d", "#4b369d", "#487de7", "#79c314", "#faeb36", "#ffa500", "#e81416", "#CD7F32", "#B4B4B4", "#C9B037"],
+      "COLOR_2": ["#69747d", "#44375d", "#3a375d", "#3e527e", "#476333", "#757548", "#7a5e2a", "#6f2631", "#615044", "#6d6c6c", "#5e5c46"]
+    },
+    {
+      "ADJECTIVE": "Prestigious",
+      "DESCRIPTION": "Level 11 of 12",
+      "TIER_CURRENT": "mdi-decagram",
+      "TIER_NEXT": "mdi-skull-scan",
+      "COLOR_1": ["#9a9a9a", "#70369d", "#4b369d", "#487de7", "#79c314", "#faeb36", "#ffa500", "#e81416", "#CD7F32", "#B4B4B4", "#C9B037"],
+      "COLOR_2": ["#69747d", "#44375d", "#3a375d", "#3e527e", "#476333", "#757548", "#7a5e2a", "#6f2631", "#615044", "#6d6c6c", "#5e5c46"]
+    },
+    {
+    "ADJECTIVE": "Benevolent",
+    "DESCRIPTION": "Level 12 of 12",
+    "TIER_CURRENT": "mdi-skull-scan",
+    "TIER_NEXT": "You have reached the highest level!",
+    "COLOR_1": ["#9a9a9a", "#70369d", "#4b369d", "#487de7", "#79c314", "#faeb36", "#ffa500", "#e81416", "#CD7F32", "#B4B4B4", "#C9B037"],
+    "COLOR_2": ["#69747d", "#44375d", "#3a375d", "#3e527e", "#476333", "#757548", "#7a5e2a", "#6f2631", "#615044", "#6d6c6c", "#5e5c46"]
+    }
+  ],
+  "RANK_BADGE": [
+    {
+      "NAME": "Bugs Bunny",
+      "DESCRIPTION": "Rank 1 of 12",
+      "MDI_ICON": "mdi-rabbit",
+      "COLOR": "#52ca96",
+      "FILL_PATH": "#2b3037",
+      "RANK_THRESHOLD": 0
+    },
+    {
+      "NAME": "Widget Weenie",
+      "DESCRIPTION": "Rank 2 of 12",
+      "MDI_ICON": "mdi-food-hot-dog",
+      "COLOR": "#85b065",
+      "FILL_PATH": "#2b3037",
+      "RANK_THRESHOLD": 5
+    },
+    {
+      "NAME": "Code Cadet",
+      "DESCRIPTION": "Rank 3 of 12",
+      "MDI_ICON": "mdi-chevron-up",
+      "COLOR": "#d9df51",
+      "FILL_PATH": "#2b3037",
+      "RANK_THRESHOLD": 15
+    },
+    {
+      "NAME": "Function Fox",
+      "DESCRIPTION": "Rank 4 of 12",
+      "MDI_ICON": "mdi-code-braces-box",
+      "COLOR": "#f5c827",
+      "FILL_PATH": "#2b3037",
+      "RANK_THRESHOLD": 30
+    },
+    {
+      "NAME": "Bit Bender",
+      "DESCRIPTION": "Rank 5 of 12",
+      "MDI_ICON": "mdi-magic-staff",
+      "COLOR": "#f4ae3c",
+      "FILL_PATH": "#362d2d",
+      "RANK_THRESHOLD": 50
+    },
+    {
+      "NAME": "Logic Lord",
+      "DESCRIPTION": "Rank 6 of 12",
+      "MDI_ICON": "mdi-human-male-board-poll",
+      "COLOR": "#ef9230",
+      "FILL_PATH": "#362d2d",
+      "RANK_THRESHOLD": 70
+    },
+    {
+      "NAME": "Malware Maven",
+      "DESCRIPTION": "Rank 7 of 12",
+      "MDI_ICON": "mdi-bug-check",
+      "COLOR": "#f07b00",
+      "FILL_PATH": "#362d2d",
+      "RANK_THRESHOLD": 100
+    },
+    {
+      "NAME": "Pixel Paladin",
+      "DESCRIPTION": "Rank 8 of 12",
+      "MDI_ICON": "mdi-chess-knight",
+      "COLOR": "#f94209",
+      "FILL_PATH": "#362d2d",
+      "RANK_THRESHOLD": 150
+    },
+    {
+      "NAME": "Code Conjurer",
+      "DESCRIPTION": "Rank 9 of 12",
+      "MDI_ICON": "mdi-wizard-hat",
+      "COLOR": "#e0397f",
+      "FILL_PATH": "#4e2828",
+      "RANK_THRESHOLD": 220
+    },
+    {
+      "NAME": "Matrix Master",
+      "DESCRIPTION": "Rank 10 of 12",
+      "MDI_ICON": "mdi-matrix",
+      "COLOR": "#f208e0",
+      "FILL_PATH": "#4e2828",
+      "RANK_THRESHOLD": 310
+    },
+    {
+      "NAME": "Data Demigod",
+      "DESCRIPTION": "Rank 11 of 12",
+      "MDI_ICON": "mdi-office-building-cog-outline",
+      "COLOR": "#9163ba",
+      "FILL_PATH": "#4e2828",
+      "RANK_THRESHOLD": 400
+    },
+    {
+      "NAME": "Centurion of Code",
+      "DESCRIPTION": "Rank 12 of 12",
+      "MDI_ICON": "mdi-omega",
+      "COLOR": "#6e44c3",
+      "FILL_PATH": "#4e2828",
+      "RANK_THRESHOLD": 500
+    }
+  ],
+  "TITLE_BGS": ["#FFF", "#D9D9D9", "#52CA96", "#F07B00", "#6E44C3", "#55CDFF", "#323358", "#0F141E"],
+  "COLOR_FILLS": ["#FF000090", "#FF7F0090", "#FFFF0090", "#00FF0090", "#0000FF90", "#4B008290", "#8F00FF90"],
+  "PROFILE_FIELDS": "name picture rank xp reputation title about coverImg"
+}
